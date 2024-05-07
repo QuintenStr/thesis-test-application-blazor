@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorResearchApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorResearchApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\assets\\10000mockdata.csv",
+      "PackagePath": "staticwebassets\\assets\\10000mockdata.csv"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\assets\\1000mockdata.csv",
+      "PackagePath": "staticwebassets\\assets\\1000mockdata.csv"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\assets\\100mockdata.csv",
+      "PackagePath": "staticwebassets\\assets\\100mockdata.csv"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\bootstrap\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\bootstrap\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorResearchApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorResearchApp.props",
+      "PackagePath": "build\\BlazorResearchApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorResearchApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorResearchApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorResearchApp.props",
+      "PackagePath": "buildTransitive\\BlazorResearchApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

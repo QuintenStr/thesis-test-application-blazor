@@ -1,0 +1,46 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>
+    Welcome!
+</h1>
+
+<p>
+    In this application I test various use cases and preformance related KPI's for my bachelor thesis research.
+</p>
+<h2>General</h2>
+<p>
+    I will compare <span class="badge bg-secondary">bundle size</span> and  <span class="badge bg-secondary">build/compilation time</span> and see if there is a <span class="badge bg-secondary">correlation</span>.
+</p>
+<h2>Page specific</h2>
+<p>
+    Then, I will compare <span class="badge bg-secondary">load time</span> , <span class="badge bg-secondary">memory usage</span> and <span class="badge bg-secondary">runtime preformance</span> for each page in both Angular and Blazor.
+</p>
+<h3>Pages</h3>
+<p>
+    Given the broad array of components provided by Blazor and Angular, exhaustive testing of each would be disproportionate to the ECTS credit awarded for this thesis. (= Too little time to test everything.) Therefore, I have opted for a generalized testing approach using data tables on various web pages. Tables are ideal for this purpose because they allow for easy scaling of data volume, serving as an efficient indicator of framework performance.
+</p>
+<h4>Basic table</h4>
+<p>
+    The basic table is just a simple html table filled up with the selected CSV file. It has a simple search functionality that checks for all the colums if the cell includes the input string, non case sensitive.
+</p>
+<h4>Advanced Table</h4>
+<p>
+    The advanced table has the same search functionality as the basic table. It also has pagination with the rows per table configureable. It is also possible to order on a specific column, ascending or descending.
+</p>
+<h3>Files</h3>
+<p>
+    This project used 3 different files. Each file is a CSV file, made up of 28 different columns. The mock data has been generated with <a href="https://www.mockaroo.com/" target="_blank">Mockaroo</a>. There is one file with 100 rows of content. This file is 47 kilobytes. The second file is made up of 1000 rows of content and is 464 kilobytes large. The biggest file contains 10000 rows of mock data and the file is 4,6 megabytes large. Basic and advanced table both use the same CSV files.
+</p>
+<p>
+</p>
+<p>
+    Click to download the <a href="/assets/100mockdata.csv">100 rows file</a>.<br />
+    Click to download the <a href="/assets/1000mockdata.csv">1000 rows file</a>.<br />
+    Click to download the <a href="/assets/10000mockdata.csv">10000 rows file</a>.
+</p>
+<h2>Results</h2>
+<p>
+    Please refer to the thesis paper to see the results of the research conducted.
+</p>

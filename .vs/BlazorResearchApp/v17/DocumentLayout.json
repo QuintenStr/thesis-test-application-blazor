@@ -1,0 +1,488 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\thesis\\BlazorResearchApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\service\\csvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\service\\csvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\components\\advancedtable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\components\\advancedtable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\components\\basictable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\components\\basictable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\helpers\\queryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\helpers\\queryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\pages\\table-10000\\table10000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\pages\\table-10000\\table10000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\pages\\table-10000\\advancedtable10000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\pages\\table-10000\\advancedtable10000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\blazorresearchapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\blazorresearchapp.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\blazorresearchapp.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\pages\\table-1000\\table1000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\pages\\table-1000\\table1000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\pages\\table-1000\\advancedtable1000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\pages\\table-1000\\advancedtable1000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\pages\\table-100\\table100.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\pages\\table-100\\table100.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\pages\\table-100\\advancedtable100.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\pages\\table-100\\advancedtable100.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\service\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\service\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1FC495-441A-4CDC-A1B4-4C53EC7E18DB}|BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|d:\\thesis\\blazorresearchapp\\blazorresearchapp\\blazorresearchapp.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1CA7E-A9EF-4F10-A503-D560FEA0DE0F}|BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj|solutionrelative:blazorresearchapp\\blazorresearchapp.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CsvService.cs",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Service\\CsvService.cs",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Service\\CsvService.cs",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Service\\CsvService.cs",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Service\\CsvService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:39:04.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T16:28:55.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-27T11:51:09.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T16:44:24.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasicTable.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Components\\BasicTable.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Components\\BasicTable.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Components\\BasicTable.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Components\\BasicTable.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T09:48:08.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Model\\Person.cs",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Model\\Person.cs",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Model\\Person.cs",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Model\\Person.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T16:33:16.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-27T11:45:15.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QueryExtensions.cs",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Helpers\\QueryExtensions.cs",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Helpers\\QueryExtensions.cs",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Helpers\\QueryExtensions.cs",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Helpers\\QueryExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T10:47:17.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\wwwroot\\app.css",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\app.css",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\wwwroot\\app.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-27T09:41:16.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\App.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\App.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T16:33:30.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\_Imports.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T18:37:33.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\Routes.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T17:20:31.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdvancedTable.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Components\\AdvancedTable.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Components\\AdvancedTable.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Components\\AdvancedTable.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Components\\AdvancedTable.razor",
+              "ViewState": "AQIAAEgBAAAAAAAAAAAvwGoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T10:44:06.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Table10000.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\Table10000.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\Table10000.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\Table10000.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\Table10000.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T09:53:03.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T17:17:00.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Program.cs",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Program.cs",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T16:33:14.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AQIAAMcrAAAAAAAAAAAiwE8tAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-26T17:18:51.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Table1000.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\Table1000.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\Table1000.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\Table1000.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\Table1000.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T09:52:34.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BlazorResearchApp.Client.csproj",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\BlazorResearchApp.Client.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-01T10:04:22.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdvancedTable10000.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\AdvancedTable10000.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\AdvancedTable10000.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\AdvancedTable10000.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-10000\\AdvancedTable10000.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T11:00:00.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BlazorResearchApp.csproj",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-01T10:04:23.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdvancedTable1000.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\AdvancedTable1000.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\AdvancedTable1000.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\AdvancedTable1000.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-1000\\AdvancedTable1000.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T10:59:46.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdvancedTable100.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\AdvancedTable100.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\AdvancedTable100.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\AdvancedTable100.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\AdvancedTable100.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T10:59:26.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Table100.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\Table100.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\Table100.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\Table100.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Pages\\Table-100\\Table100.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T16:39:02.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Service\\DataService.cs",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\Service\\DataService.cs",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\Service\\DataService.cs",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\Service\\DataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:39:03.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "favicon.png",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\wwwroot\\favicon.png",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\wwwroot\\favicon.png",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\wwwroot\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-27T09:41:28.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\wwwroot\\appsettings.json",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\wwwroot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-26T16:33:20.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp\\Program.cs",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp\\Program.cs",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T18:37:23.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorResearchApp\\BlazorResearchApp.Client\\_Imports.razor",
+              "ToolTip": "D:\\thesis\\BlazorResearchApp\\BlazorResearchApp\\BlazorResearchApp.Client\\_Imports.razor",
+              "RelativeToolTip": "BlazorResearchApp\\BlazorResearchApp.Client\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T16:33:13.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

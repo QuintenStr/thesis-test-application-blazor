@@ -1,0 +1,462 @@
+﻿@using BlazorResearchApp.Client.Model
+@using BlazorResearchApp.Client.Service
+@using BlazorResearchApp.Client.Helpers
+@inject DataService dataService
+
+@if (people == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="d-flex mb-3 align-items-center">
+        <label for="searchInput" class="form-label me-3 mb-0">Search: </label>
+        <input @oninput="OnInputChanged" class="form-control" style="width: 24rem;" type="text" @bind="searchTerm" id="searchInput" />
+    </div>
+    <div class="table-responsive border shadow mb-3" style="max-height: 75vh;">
+        <table class="table table-sm table-striped table-hover mb-0">
+            <thead>
+                <tr>
+                    <th scope="col"@onclick='() => SortByColumn("Id")'>
+                        <div class="d-flex">
+                            Id
+                            @if (sortColumn == "Id")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("Username")'>
+                        <div class="d-flex">
+                            Username
+                            @if (sortColumn == "Username")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                            </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("FirstName")'>
+                        <div class="d-flex">
+                            FirstName
+                            @if (sortColumn == "FirstName")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("LastName")'>
+                        <div class="d-flex">
+                            LastName
+                            @if (sortColumn == "LastName")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("Email")'>
+                        <div class="d-flex">
+                            Email
+                            @if (sortColumn == "Email")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("PhoneNumber")'>
+                        <div class="d-flex">
+                            PhoneNumber
+                            @if (sortColumn == "PhoneNumber")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("Country")'>
+                        <div class="d-flex">
+                            Country
+                            @if (sortColumn == "Country")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("State")'>
+                        <div class="d-flex">
+                            State
+                            @if (sortColumn == "State")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("City")'>
+                        <div class="d-flex">
+                            City
+                            @if (sortColumn == "City")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("PostalCode")'>
+                        <div class="d-flex">
+                            PostalCode
+                            @if (sortColumn == "PostalCode")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("StreetAddress")'>
+                        <div class="d-flex">
+                            StreetAddress
+                            @if (sortColumn == "StreetAddress")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("Password")'>
+                        <div class="d-flex">
+                            Password
+                            @if (sortColumn == "Password")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("SecurityQuestion1")'>
+                        <div class="d-flex">
+                            SecurityQuestion1
+                            @if (sortColumn == "SecurityQuestion1")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("SecurityAnswer1")'>
+                        <div class="d-flex">
+                            SecurityAnswer1
+                            @if (sortColumn == "SecurityAnswer1")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("SecurityQuestion2")'>
+                        <div class="d-flex">
+                            SecurityQuestion2
+                            @if (sortColumn == "SecurityQuestion2")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("SecurityAnswer2")'>
+                        <div class="d-flex">
+                            SecurityAnswer2
+                            @if (sortColumn == "SecurityAnswer2")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("DeviceType")'>
+                        <div class="d-flex">
+                            DeviceType
+                            @if (sortColumn == "DeviceType")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("DeviceBrand")'>
+                        <div class="d-flex">
+                            DeviceBrand
+                            @if (sortColumn == "DeviceBrand")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("DeviceModel")'>
+                        <div class="d-flex">
+                            DeviceModel
+                            @if (sortColumn == "DeviceModel")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("DeviceOs")'>
+                        <div class="d-flex">
+                            DeviceOs
+                            @if (sortColumn == "DeviceOs")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("LastLogin")'>
+                        <div class="d-flex">
+                            LastLogin
+                            @if (sortColumn == "LastLogin")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("AccountCreated")'>
+                        <div class="d-flex">
+                            AccountCreated
+                            @if (sortColumn == "AccountCreated")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("TwoFactorEnabled")'>
+                        <div class="d-flex">
+                            TwoFactorEnabled
+                            @if (sortColumn == "TwoFactorEnabled")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("LastIpAddress")'>
+                        <div class="d-flex">
+                            LastIpAddress
+                            @if (sortColumn == "LastIpAddress")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("LoginAttempts")'>
+                        <div class="d-flex">
+                            LoginAttempts
+                            @if (sortColumn == "LoginAttempts")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("AccountLocked")'>
+                        <div class="d-flex">
+                            AccountLocked
+                            @if (sortColumn == "AccountLocked")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                    <th scope="col" @onclick='() => SortByColumn("PasswordLastChanged")'>
+                        <div class="d-flex">
+                            PasswordLastChanged
+                            @if (sortColumn == "PasswordLastChanged")
+                            {
+                                <i class="@(sortAscending ? "bi bi-arrow-down" : "bi bi-arrow-up")"></i>
+                            }
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var person in filteredPeople)
+                {
+                    <tr>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Id</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Username</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.FirstName</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LastName</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Email</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.PhoneNumber</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Country</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.State</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.City</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.PostalCode</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.StreetAddress</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Password</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityQuestion1</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityAnswer1</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityQuestion2</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityAnswer2</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceType</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceBrand</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceModel</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceOs</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LastLogin</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.AccountCreated</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.TwoFactorEnabled</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LastIpAddress</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LoginAttempts</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.AccountLocked</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.PasswordLastChanged</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item @(currentPage == 1 ? "disabled" : "")">
+                <button class="page-link" @onclick="PreviousPage">Previous</button>
+            </li>
+
+            @if (currentPage > 3)
+            {
+                <li class="page-item"><button class="page-link" @onclick="() => ChangePage(1)">1</button></li>
+                <li class="page-item disabled"><span class="page-link">...</span></li>
+            }
+
+            @for (int i = Math.Max(1, currentPage - 2); i <= Math.Min(currentPage + 2, maxPage); i++)
+            {
+                int localI = i; // Create a local copy of the loop variable
+                <li class="page-item @(localI == currentPage ? "active" : "")">
+                    <button class="page-link" @onclick="() => ChangePage(localI)">@localI</button>
+                </li>
+            }
+
+            @if (currentPage < maxPage - 2)
+            {
+                <li class="page-item disabled"><span class="page-link">...</span></li>
+                <li class="page-item"><button class="page-link" @onclick="() => ChangePage(maxPage)">@maxPage</button></li>
+            }
+
+            <li class="page-item @(currentPage == maxPage ? "disabled" : "")">
+                <button class="page-link" @onclick="NextPage">Next</button>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="form-group mb-3">
+        <label for="pageSize">Rows per page:</label>
+        <select @onchange="OnPageSizeChanged" class="form-control w-auto" id="pageSize">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+
+}
+
+@code {
+    [Parameter]
+    public string CsvUrl { get; set; }
+
+    private List<Person> people;
+    private List<Person> filteredPeople;
+    private string searchTerm;
+    private int currentPage = 1;
+    private int pageSize = 10;
+    private int totalRecords;
+    private string sortColumn = "Id";
+    private bool sortAscending = true;
+    private int maxPage => (int)Math.Ceiling((double)totalRecords / pageSize);
+
+    private void ChangePage(int page)
+    {
+        if (page < 1 || page > maxPage) return;
+
+        currentPage = page;
+        Search();
+        StateHasChanged();
+    }
+    private void OnPageSizeChanged(ChangeEventArgs e)
+    {
+        pageSize = int.Parse(e.Value.ToString());
+        currentPage = 1;
+        Search();
+    }
+
+    private void OnInputChanged(ChangeEventArgs e)
+    {
+        searchTerm = e.Value?.ToString();
+        currentPage = 1;
+        Search();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        people = await dataService.LoadDataAsync(CsvUrl);
+        filteredPeople = people;
+        Search();
+    }
+
+    private void Search()
+    {
+        var query = people.AsQueryable(); 
+
+        if (!string.IsNullOrEmpty(searchTerm))
+        {
+            query = query.Where(p =>
+            (p.Username != null && p.Username.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.FirstName != null && p.FirstName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.LastName != null && p.LastName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.Email != null && p.Email.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.PhoneNumber != null && p.PhoneNumber.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.Country != null && p.Country.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.State != null && p.State.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.City != null && p.City.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.PostalCode != null && p.PostalCode.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.StreetAddress != null && p.StreetAddress.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.Password != null && p.Password.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityQuestion1 != null && p.SecurityQuestion1.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityAnswer1 != null && p.SecurityAnswer1.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityQuestion2 != null && p.SecurityQuestion2.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityAnswer2 != null && p.SecurityAnswer2.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceType != null && p.DeviceType.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceBrand != null && p.DeviceBrand.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceModel != null && p.DeviceModel.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceOs != null && p.DeviceOs.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.LastLogin != null && p.LastLogin.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.AccountCreated != null && p.AccountCreated.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.AccountStatus != null && p.AccountStatus.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            p.TwoFactorEnabled.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+            (p.LastIpAddress != null && p.LastIpAddress.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            p.LoginAttempts.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+            p.AccountLocked.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+            (p.PasswordLastChanged != null && p.PasswordLastChanged.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+            );
+        }
+
+        query = sortAscending ? query.OrderByDynamic(sortColumn, true) : query.OrderByDynamic(sortColumn, false);
+
+        totalRecords = query.Count();
+
+        filteredPeople = query.Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
+        StateHasChanged();
+    }
+
+    private void NextPage()
+    {
+        currentPage++;
+        Search();
+    }
+
+    private void PreviousPage()
+    {
+        if (currentPage > 1)
+        {
+            currentPage--;
+            Search();
+        }
+    }
+
+    private bool IsPreviousDisabled() => currentPage == 1;
+    private bool IsNextDisabled() => currentPage >= Math.Ceiling((double)totalRecords / pageSize);
+
+    private void SortByColumn(string columnName)
+    {
+        if (columnName == sortColumn)
+            sortAscending = !sortAscending;
+        else
+            sortColumn = columnName;
+
+        Search();
+    }
+}

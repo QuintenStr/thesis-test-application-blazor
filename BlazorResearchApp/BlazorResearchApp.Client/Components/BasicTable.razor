@@ -1,0 +1,144 @@
+﻿@using BlazorResearchApp.Client.Model
+@using BlazorResearchApp.Client.Service
+@inject DataService dataService
+
+@if (people == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="d-flex mb-3 align-items-center">
+        <label for="searchInput" class="form-label me-3 mb-0">Search: </label>
+        <input @oninput="OnInputChanged" class="form-control" style="width: 24rem;" type="text" @bind="searchTerm" id="searchInput" />
+    </div>
+    <div class="table-responsive rounded shadow-lg mb-3" style="max-height: 90vh;">
+        <table class="table table-sm table-striped table-hover mb-0">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">FirstName</th>
+                    <th scope="col">LastName</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">PhoneNumber</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">State</th>
+                    <th scope="col">City</th>
+                    <th scope="col">PostalCode</th>
+                    <th scope="col">StreetAddress</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">SecurityQuestion1</th>
+                    <th scope="col">SecurityAnswer1</th>
+                    <th scope="col">SecurityQuestion2</th>
+                    <th scope="col">SecurityAnswer2</th>
+                    <th scope="col">DeviceType</th>
+                    <th scope="col">DeviceBrand</th>
+                    <th scope="col">DeviceModel</th>
+                    <th scope="col">DeviceOs</th>
+                    <th scope="col">LastLogin</th>
+                    <th scope="col">AccountCreated</th>
+                    <th scope="col">TwoFactorEnabled</th>
+                    <th scope="col">LastIpAddress</th>
+                    <th scope="col">LoginAttempts</th>
+                    <th scope="col">AccountLocked</th>
+                    <th scope="col">PasswordLastChanged</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var person in filteredPeople)
+                {
+                    <tr>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Id</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Username</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.FirstName</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LastName</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Email</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.PhoneNumber</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Country</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.State</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.City</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.PostalCode</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.StreetAddress</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.Password</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityQuestion1</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityAnswer1</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityQuestion2</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.SecurityAnswer2</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceType</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceBrand</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceModel</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.DeviceOs</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LastLogin</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.AccountCreated</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.TwoFactorEnabled</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LastIpAddress</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.LoginAttempts</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.AccountLocked</td>
+                        <td style="white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important;">@person.PasswordLastChanged</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string CsvUrl { get; set; }
+
+    private List<Person> people;
+    private List<Person> filteredPeople;
+    private string searchTerm;
+
+    private void OnInputChanged(ChangeEventArgs e)
+    {
+        searchTerm = e.Value?.ToString();
+        Search();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        people = await dataService.LoadDataAsync(CsvUrl);
+        filteredPeople = people;
+    }
+
+    private void Search()
+    {
+        if (string.IsNullOrEmpty(searchTerm))
+        {
+            filteredPeople = people;
+            return;
+        }
+
+        filteredPeople = people.Where(p =>
+            (p.Username != null && p.Username.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.FirstName != null && p.FirstName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.LastName != null && p.LastName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.Email != null && p.Email.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.PhoneNumber != null && p.PhoneNumber.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.Country != null && p.Country.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.State != null && p.State.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.City != null && p.City.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.PostalCode != null && p.PostalCode.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.StreetAddress != null && p.StreetAddress.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.Password != null && p.Password.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityQuestion1 != null && p.SecurityQuestion1.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityAnswer1 != null && p.SecurityAnswer1.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityQuestion2 != null && p.SecurityQuestion2.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.SecurityAnswer2 != null && p.SecurityAnswer2.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceType != null && p.DeviceType.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceBrand != null && p.DeviceBrand.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceModel != null && p.DeviceModel.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.DeviceOs != null && p.DeviceOs.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.LastLogin != null && p.LastLogin.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.AccountCreated != null && p.AccountCreated.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            (p.AccountStatus != null && p.AccountStatus.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            p.TwoFactorEnabled.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+            (p.LastIpAddress != null && p.LastIpAddress.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+            p.LoginAttempts.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+            p.AccountLocked.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+            (p.PasswordLastChanged != null && p.PasswordLastChanged.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+        ).ToList();
+    }
+}

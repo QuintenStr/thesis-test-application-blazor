@@ -1,0 +1,59 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorResearchApp.Client
+build_property.RootNamespace = BlazorResearchApp.Client
+build_property.ProjectDir = D:\thesis\BlazorResearchApp\BlazorResearchApp\BlazorResearchApp.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\thesis\BlazorResearchApp\BlazorResearchApp\BlazorResearchApp.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Components/AdvancedTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZHZhbmNlZFRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Components/BasicTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCYXNpY1RhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Pages/Table-10000/AdvancedTable10000.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGUtMTAwMDBcQWR2YW5jZWRUYWJsZTEwMDAwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Pages/Table-10000/Table10000.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGUtMTAwMDBcVGFibGUxMDAwMC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Pages/Table-1000/AdvancedTable1000.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGUtMTAwMFxBZHZhbmNlZFRhYmxlMTAwMC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Pages/Table-1000/Table1000.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGUtMTAwMFxUYWJsZTEwMDAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Pages/Table-100/AdvancedTable100.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGUtMTAwXEFkdmFuY2VkVGFibGUxMDAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/Pages/Table-100/Table100.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGUtMTAwXFRhYmxlMTAwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/thesis/BlazorResearchApp/BlazorResearchApp/BlazorResearchApp.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
